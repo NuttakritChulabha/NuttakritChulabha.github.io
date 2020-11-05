@@ -1,0 +1,210 @@
+/*
+.bgimg {
+  background-image: url(https://cdn.pixabay.com/photo/2020/10/30/16/27/mountain-5699035_1280.jpg);
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}*/
+
+.w3-animate-opacity{
+  animation:opac 0.8s
+}
+
+.w3-display-container{position:relative}
+
+
+.border-head {
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color:rgba(107, 103, 103, 0.466);
+}
+
+.text-white{
+  color:#fff!important
+}
+
+.align{
+  text-align: center;
+  }
+
+.img-align{
+  display: block;
+  margin: auto;
+}
+
+
+/*Positon middle for text*/
+.display-middle{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)
+}
+
+
+/*
+.background{  
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/30/16/27/mountain-5699035_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%
+}
+*/
+
+.img-profile{
+border-radius: 50%;
+
+}
+
+/*.container{
+    justify-content: center;
+    color: azure;
+    text-align: center;
+    text-shadow: #535757;
+    font-size: 2em;
+}*/
+
+/* css ส่วนของเมนูหลัก */
+/*
+ul {
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+
+  .active {
+    background-color: #4CAF50;
+  }
+*/
+  /*รูปส่วนของ  bar*/
+
+
+
+
+
+/* profile */
+/*
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+*/
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(https://cdn.pixabay.com/photo/2020/10/30/16/27/mountain-5699035_1280.jpg);
+  /*min-height: 100%*/
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+
+.column-Gap {
+  float: left;
+  width: 1%;
+  padding: 1px;
+}
+
+.column1 {
+  float: left;
+  width: 30%;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #f2f2f2ce;
+  border: 1px solid rgb(0, 0, 0); 
+  
+}
+
+.column2 {
+  float: left;
+  width: 68%;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #f2f2f2ce;
+  border: 1px solid rgb(0, 0, 0); 
+  
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
